@@ -1,5 +1,3 @@
-from math import prod
-from urllib import response
 from flask import request
 from flask import Response
 import json
@@ -36,7 +34,6 @@ def configure(app):
         except Exception as e:
             print(e)
             return error_response(500)
-            app.route('/category')
     @app.route('/')
     def by_id():
         id = request.args.get('id')

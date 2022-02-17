@@ -1,7 +1,4 @@
 from flask import Flask
-from flask import request
-from flask import Response
-import json
 import config_api
 app = Flask(__name__)
 

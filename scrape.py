@@ -1,6 +1,3 @@
-from nis import cat
-from unicodedata import category
-from wsgiref import headers
 from bs4 import BeautifulSoup
 import requests
 import re
