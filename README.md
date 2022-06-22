@@ -22,6 +22,8 @@ Categories must be one of the following:
 'fresh-food', 'bakery', 'frozen-food', 'food-cupboard', 'drinks', 'baby', 'health-and-beauty', 'pets', 'household'
 
 Example Response:
+
+```
 {
     "products": [
         {
@@ -34,3 +36,4 @@ Example Response:
         }
     ]
 }
+```
